@@ -45,3 +45,6 @@ group :development do
   gem 'spring'
 end
 
+gem 'haml', '~> 4.0.7'
+gem 'simple_form', '~> 3.0.2'
+gem 'devise', '~> 3.4.1'
