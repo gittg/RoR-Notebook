@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: top center;
   width: 100%;
-  min-height: 500px;
+  min-height: 300px;
   display: table;
   .banner_content {
     display: table-cell;
@@ -14,7 +14,7 @@
       @include bold_font;
       color: white;
       font-size: 3.5rem;
-      margin: 0;
+      margin: 50;
     }
     p {
       font-size: 1.5rem;
