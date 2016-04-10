@@ -2,7 +2,8 @@
   .banner_content
     %h1 NoteX
     %p Your online notebook. Never forget an idea again.
-    %button= link_to "Sign Up", new_user_registration_path
+    %button
+      = link_to "Sign Up", new_user_registration_path, class: "button"
     %p
 
 #testimonial
